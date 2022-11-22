@@ -2,7 +2,7 @@
 
 This repository contains several Jupyter notebooks for working with Earth Surface Mineral Dust Source Investigation (EMIT) data products.
 
-To access EMIT Data visit: [https://search.earthdata.nasa.gov/search?fi=EMIT%2BImaging%2BSpectrometer]
+To access EMIT Data visit: <https://search.earthdata.nasa.gov/search?fi=EMIT%2BImaging%2BSpectrometer>
 
 ## Background  
 
@@ -18,13 +18,15 @@ Inside the `.netcdf` file there are 3 groups, the root group containing reflecta
 
 ### Helpful Links  
 
-For more information on EMIT visit:  [https://earth.jpl.nasa.gov/emit/]
-<TO DO>User Guide:
-<TO DO>ATBD Documents:
+[EMIT Website](https://earth.jpl.nasa.gov/emit/)  
+
+[L2A Reflectance User Guide](https://lpdaac.usgs.gov/documents/1569/EMITL2ARFL_User_Guide_v1.pdf)  
+
+[L2A ATBD Documents](https://lpdaac.usgs.gov/documents/1571/EMITL2A_ATBD_v1.pdf)  
 
 ### Granules Used
 
-+ [https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20220903T163129_2224611_012/EMIT_L2A_RFL_001_20220903T163129_2224611_012.nc]  
++ <https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20220903T163129_2224611_012/EMIT_L2A_RFL_001_20220903T163129_2224611_012.nc>
 
 ---
 
@@ -32,7 +34,7 @@ For more information on EMIT visit:  [https://earth.jpl.nasa.gov/emit/]
 
 ---
 
-1. [Exploring EMIT L2A Reflectance Data](/notebooks/01_Exploring_EMIT_L2A_Reflectance.ipynb)  
+1. [Exploring EMIT L2A Reflectance Data](/01_Exploring_EMIT_L2A_Reflectance.ipynb)  
     1.1 Setup  
     1.2 Opening and Understanding File Structure  
     1.3 Plotting Spectra Basics  
@@ -70,7 +72,7 @@ If you prefer to not install Conda, the same setup and dependencies can be achie
 
 ### 2. Directory Setup  
 
-This repository requires that you download an EMIT granule from .
+This repository requires that you download [this](https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20220903T163129_2224611_012/EMIT_L2A_RFL_001_20220903T163129_2224611_012.nc) EMIT scene.
 
 **Place the downloaded file into the `/emit-tutorials/` directory.**
 
@@ -84,7 +86,7 @@ The Jupyter notebook, in addition to the Python module used to apply the GLT are
 
 ---
 
-### [Begin Tutorial: 01 - Exploring EMIT L2A Reflectance](/notebooks/01_Exploring_EMIT_L2A_Reflectance.ipynb)  
+### [Begin Tutorial: 01 - Exploring EMIT L2A Reflectance](/01_Exploring_EMIT_L2A_Reflectance.ipynb)  
 
 ---  
 
