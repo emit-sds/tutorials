@@ -54,26 +54,13 @@ This Python Environment will work for all of the tutorials within this repositor
 
 It is recommended to use [Conda](https://conda.io/docs/), an environment manager, to set up a compatible Python environment. Download Conda for your OS [here](https://www.anaconda.com/download/). Once you have Conda installed, follow the instructions below to successfully setup a Python environment on Windows, MacOS, or Linux.  
 
-**Using your preferred command line interface (command prompt, terminal, cmder, etc.) navigate to the repository, then type the following to successfully create a compatible python environment using the included `yml` file. Then launch Jupyter Notebook to get started:**
+**Using your preferred command line interface (command prompt, terminal, cmder, etc.) navigate to your local copy of the repository, then type the following to create a compatible Python environment using the included `.yml` file. Then launch Jupyter Notebook to get started:**
 
 > `conda env create -f emit_tutorials.yml`
 
 > `conda activate emit_tutorials`
 
-> `jupyter notebook`
-
-**Using your preferred command line interface (command prompt, terminal, cmder, etc.) type the following to successfully create a compatible python environment and launch Jupyter Notebook to get started:**  
-
-> `conda create -n emit_tutorials -c conda-forge python gdal numpy pandas matplotlib xarray rasterio rioxarray geopandas pyproj shapely geoviews cartopy hvplot holoviews netcdf4 jupyter`  
-
-> `conda activate emit_tutorials`  
-
 > `jupyter notebook`  
-
-  TIP: Having trouble activating your environment, or loading specific packages once you have activated your environment? Try the following:
-  > `conda update conda`  
-
-If you prefer to not install Conda, the same setup and dependencies can be achieved by using another package manager such as pip.  
 
 [Additional information](https://conda.io/docs/user-guide/tasks/manage-environments.html) on setting up and managing Conda environments.  
 **Still having trouble getting a compatible Python environment set up? Contact [LP DAAC User Services](https://lpdaac.usgs.gov/lpdaac-contact-us/).**
