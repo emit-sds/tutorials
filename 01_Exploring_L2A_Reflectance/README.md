@@ -34,7 +34,7 @@ Inside the `.netcdf` file there are 3 groups, the root group containing reflecta
 
 ---
 
-1. [Exploring EMIT L2A Reflectance Data](/01_Exploring_EMIT_L2A_Reflectance.ipynb)  
+1. **Exploring EMIT L2A Reflectance Data**
     1.1 Setup  
     1.2 Opening and Understanding File Structure  
     1.3 Plotting Spectra Basics  
@@ -54,9 +54,17 @@ This Python Environment will work for all of the tutorials within this repositor
 
 It is recommended to use [Conda](https://conda.io/docs/), an environment manager, to set up a compatible Python environment. Download Conda for your OS [here](https://www.anaconda.com/download/). Once you have Conda installed, follow the instructions below to successfully setup a Python environment on Windows, MacOS, or Linux.  
 
+**Using your preferred command line interface (command prompt, terminal, cmder, etc.) navigate to the repository, then type the following to successfully create a compatible python environment using the included `yml` file. Then launch Jupyter Notebook to get started:**
+
+> `conda env create -f emit_tutorials.yml`
+
+> `conda activate emit_tutorials`
+
+> `jupyter notebook`
+
 **Using your preferred command line interface (command prompt, terminal, cmder, etc.) type the following to successfully create a compatible python environment and launch Jupyter Notebook to get started:**  
 
-> `conda create -n emit_tutorials -c conda-forge python=3.9 numpy pandas matplotlib xarray rasterio rioxarray geopandas pyproj shapely geoviews cartopy hvplot holoviews netcdf4 jupyter`  
+> `conda create -n emit_tutorials -c conda-forge python gdal numpy pandas matplotlib xarray rasterio rioxarray geopandas pyproj shapely geoviews cartopy hvplot holoviews netcdf4 jupyter`  
 
 > `conda activate emit_tutorials`  
 
@@ -85,10 +93,6 @@ This repository requires that you download [this](https://data.lpdaac.earthdatac
 The Jupyter notebook, in addition to the Python module used to apply the GLT are included in the repository. The scene used in the notebook can be found [here](https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20220903T163129_2224611_012/EMIT_L2A_RFL_001_20220903T163129_2224611_012.nc).  
 
 ---
-
-### [Begin Tutorial: 01 - Exploring EMIT L2A Reflectance](/01_Exploring_EMIT_L2A_Reflectance.ipynb)  
-
----  
 
 ## Contact Info:  
 
