@@ -1,1 +1,6 @@
-data/EMIT_L2A_RFL_001_20220903T163129_2224611_012.nc
+*.ipynb_checkpoints
+*.nc*
+/data/example_out.csv
+/data/isla_gaviota_3.geojson
+/ignore
+*__pycache__*
